@@ -1,0 +1,21 @@
+{{#products}}
+<li class="list-group-item">
+	<h4>{{title}}</h4>
+	<div class="hidey productdescr" id="pdescr_{{nodeId}}">
+		{{description}}
+		<p class="productTags">
+			<b>Tags:</b> {{tagstr}}
+		</p>
+	</div>
+	<div>
+		<a href="#" id="{{nodeId}}" class="productNodeId">See Product
+			Description...</a>
+	</div>
+</li>
+{{/products}} {{#next}}
+<a href="{{{nextPageUrl}}}" class="jscroll-next">next</a>
+{{/next}} {{^next}}
+<div align="center" style="margin: 20px 0 20px 0">
+	<li id="feed_load">No additional results
+</div>
+{{/next}}

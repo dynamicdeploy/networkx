@@ -1,0 +1,37 @@
+<h3>Consumption Graph</h3>
+<p>When a user searches for a product, they USE a keyword or phrase.
+	In the example below, we match those keywords or phrases with the USES
+	relationship to users and the HAS relationship with products. In this
+	way, the users are consuming "product views" via a keyword or phrase</p>
+<p>NOTE: this is different than when a user enters a keyword or
+	phrase as a tag with CONTENT in the social graph. While the connection
+	could be made between a user's tagged content, it is separate for the
+	purpose of this example.</p>
+<div class="container">
+	<div class="row">
+		<div class="col-md-3">
+			<h3>Consumption Menu</h3>
+			<ul id="sidemenu">
+				<li><a href="/consumption">Product List</a></li>
+				<li><a href="/consumption/console">Consumption console</a></li>
+			</ul>
+		</div>
+		<div class="col-md-9">
+			<h3>Products that match Users via Tags</h3>
+			<table class="table" id="content">
+				{{#usersWithMatchingTags}}
+				<ul>
+					<li class="list-group-item">The product <b>{{title}}</b>
+						shares the tags: {{#tags}} <b>{{.}}</b> {{/tags}} with these
+						users:
+						<ul>
+							{{#users}}
+							<li>{{.}}</li> {{/users}}
+						</ul>
+					</li>
+				</ul>
+				{{/usersWithMatchingTags}}
+			</table>
+		</div>
+	</div>
+</div>

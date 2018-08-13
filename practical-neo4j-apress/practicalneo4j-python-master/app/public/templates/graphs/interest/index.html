@@ -1,0 +1,37 @@
+<h3>Interest Graph</h3>
+<p>This section of the application shows interest via a user's
+	tagged content and the user's network of friends tagged content. This
+	could be expanded to show users with common interests via tags.</p>
+<div class="container">
+	<div class="row">
+		<div class="col-md-3">
+			<h3>My Interests</h3>
+			<p>
+				{{#userTags}} <a href="/interest?tag={{name}}&userscontent=true">{{name}}
+					({{id}})</a> {{/userTags}}
+			</p>
+			<h3>Interests in my network</h3>
+			<p>
+				{{#tagsInNetwork}} <a
+					href="/interest?tag={{name}}&userscontent=false">{{name}}
+					({{id}})</a> {{/tagsInNetwork}}
+			</p>
+		</div>
+		<div class="col-md-9">
+			<h3>Graph Story - Interest Feed</h3>
+			<table class="table table-striped" id="content">
+				{{#contents}}
+				<tr>
+					<td><a href="{{url}}" target="_blank">{{title}}</a><br />
+						tags: {{tagstr}} :: Posted by {{username}} at <a
+						href="/viewpost/{{contentId}}">{{timestampAsStr}}</a><br /></td>
+				</tr>
+				{{/contents}} {{^contents}}
+				<tr>
+					<td>Click on a tag to display the feed.</td>
+				</tr>
+				{{/contents}}
+			</table>
+		</div>
+	</div>
+</div>

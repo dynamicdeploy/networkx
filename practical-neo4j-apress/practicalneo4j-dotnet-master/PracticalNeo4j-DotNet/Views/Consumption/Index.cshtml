@@ -1,0 +1,37 @@
+﻿@model PracticalNeo4j_DotNet.Service.GraphStory
+@{
+    Layout = "~/Views/_App.cshtml";
+    ViewBag.Title = "Consumption";
+}
+<h3>Consumption Graph</h3>
+<p>This section of the application demonstrates a way to view products via a scrolling list.  When a user clicks on a product description, they are connected to the product via the VIEWED relationship.</p>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            @Html.Partial("~/Views/Global/consumption-nav.cshtml")
+
+            <h4>Viewed Products</h4>
+            <p>Items the current user has recently viewed.</p>
+            <div id="userProductTrail">
+                @if (Model.productTrail != null && Model.productTrail.Any() == true)
+                {
+                    foreach (var productTrailItem in Model.productTrail)
+                    {
+                        <p><b>@Html.DisplayFor(modeItem => productTrailItem.title)</b> <br> last viewed on: @Html.DisplayFor(modeItem => productTrailItem.dateAsStr)</p>
+                    }
+                }
+                else
+                {
+                    <p>user <b>"@Html.DisplayFor(model => model.user.username)"</b> has no product trail</p>
+                }
+            </div>
+        </div>
+        <div class="col-md-7">
+            <h3>Graph Story - Productsville</h3>
+            <h5 class="tfhmf">Scroll down to show moar products</h5>
+            <ul class="list-group" id="productlist">
+                @Html.Partial("~/Views/Consumption/product-list.cshtml")
+            </ul>
+        </div>
+    </div>
+</div>

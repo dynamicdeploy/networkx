@@ -1,0 +1,46 @@
+﻿@model PracticalNeo4j_DotNet.Service.GraphStory
+
+@{
+    Layout = "~/Views/_App.cshtml";
+    ViewBag.Title = "Consumption Console";
+}
+
+
+<h3>Consumption Graph</h3>
+<p>When a user searches for a product, they USE a keyword or phrase. In the example below, we match those keywords or phrases with the USES relationship to users and the HAS relationship with products. In this way, the users are consuming "product views" via a keyword or phrase</p>
+<p>NOTE: this is different than when a user enters a keyword or phrase as a tag with CONTENT in the social graph.  While the connection could be made between a user's tagged content, it is separate for the purpose of this example.</p>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+          @Html.Partial("~/Views/Global/consumption-nav.cshtml")
+        </div>
+        <div class="col-md-9">
+            <h3>Products that match Users via Tags</h3>
+            <table class="table" id="content">
+                <ul>
+                    @if (Model.usersWithMatchingTags != null && Model.usersWithMatchingTags.Any() == true)
+                    {
+
+                        foreach (var uwmt in Model.usersWithMatchingTags)
+                        {
+                            <li class="list-group-item">
+                                The product <b>@Html.DisplayFor(modeItem => uwmt.title)</b> shares the tags:
+
+                                @foreach (var tag in uwmt.tags)
+                                {
+                                    <b>@tag</b>
+                                }
+                                <ul>
+                                    @foreach (var user in uwmt.users)
+                                    {
+                                        <li>@user</li>
+                                    }
+                                </ul>
+                            </li>
+                        }
+                    }
+                </ul>
+            </table>
+        </div>
+    </div>
+</div>

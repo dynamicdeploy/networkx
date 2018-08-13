@@ -1,0 +1,56 @@
+<h3>Location Graph - Home</h3>
+<p>This section of the application shows a user's location. Using
+	the form, you can show stores with a certain distance or search for
+	proudcts with a certain distance.</p>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h3>Location Graph</h3>
+			<p>
+				{{#mappedUserLocation}} 
+					The user <b>"{{username}}"</b> lives at <b>{{address}}
+					{{city}},{{state}} {{zip}}</b> 
+				{{/mappedUserLocation}}
+			</p>
+			<p>
+				<br />
+				<br /> Use the form below to search for store locations near
+				{{#mappedUserLocation}} <b>{{address}} {{city}},{{state}}
+					{{zip}}</b>{{/mappedUserLocation}} <br />
+				<br /> Enter a few starting letters to autosuggest products and find
+				out which stores have the product in stock.
+			</p>
+			<form class="form-inline" role="form" action="/location"
+				autocomplete="off">
+				<div class="form-group">
+					<input type="text" class="form-control col-lg-1" id="product"
+						name="product" size="50"
+						placeholder="Search for Products, eg. adv ">
+				</div>
+				<div class="checkbox">
+					<label> Distance </label> <select name="distance"
+						class="form-control">
+						<option value="3.00">3 Miles</option>
+						<option value="5.00">5 Miles</option>
+						<option value="10.00">10 Miles</option>
+						<option value="25.00">25 Miles</option>
+						<option value="50.00">50 Miles</option>
+					</select>
+				</div>
+				<button type="submit" class="btn btn-default">Search</button>
+				<input type="hidden" id="productNodeId" name="productNodeId" />
+			</form>
+			<p>
+				{{#productTitle}} The following locations have <b>"{{.}}"</b>
+				{{/productTitle}}
+			</p>
+			<table class="table table-striped" id="locations">
+				{{#locations}}
+				<tr>
+					<td>{{name}} is {{distanceToLocation}}</td>
+				</tr>
+				{{/locations}}
+			</table>
+		</div>
+	</div>
+</div>

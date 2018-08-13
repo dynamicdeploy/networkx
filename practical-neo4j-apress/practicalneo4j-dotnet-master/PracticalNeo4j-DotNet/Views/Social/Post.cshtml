@@ -1,0 +1,28 @@
+﻿@model PracticalNeo4j_DotNet.ViewModels.MappedContent
+
+@{
+    ViewBag.Title = "Post";
+    Layout = "~/Views/_App.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            @Html.Partial("~/Views/Global/social-nav.cshtml")
+        </div>
+        <div class="col-md-9">
+            <h3>@Html.DisplayFor(model => model.title)</h3>
+            <table class="table table-striped" id="content">
+                <tr>
+                    <td>
+                        <a href="@Html.DisplayFor(model => model.url)" target="_blank">@Html.DisplayFor(model => model.title)</a> 
+                        
+                        <br /><br />tags:@Html.DisplayFor(model => model.tagstr) <br /><br /> Posted by @Html.DisplayFor(model => model.userNameForPost) at @Html.DisplayFor(model => model.timestampAsStr)<br />
+                    </td>
+                </tr>
+                <tr><td><a href="/social"> &lt;&lt;&lt; Back </a></td></tr>
+            </table>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,32 @@
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-3">
+			<h3>Social Menu</h3>
+			<ul id="sidemenu">
+				<li><a href="/social">Social Feed</a></li>
+				<li><a href="/user">User Settings</a></li>
+				<li><a href="/friends">Friends</a></li>
+			</ul>
+		</div>
+		<div class="col-md-9">
+			<h3>{{content.title}}</h3>
+			<table class="table table-striped" id="content">
+				{{#content}}
+				<tr>
+					<td><a href="{{url}}" target="_blank">{{title}}</a> <br />
+					<br />tags: {{tagstr}} <br />
+					<br /> Posted by {{username}} at {{timestampAsStr}}<br /></td>
+				</tr>
+				{{/content}} {{^content}}
+				<tr>
+					<td>Post not found</td>
+				</tr>
+				{{/content}}
+				<tr>
+					<td><a href="/social"> &lt;&lt;&lt; Back </a></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,23 @@
+﻿@model PracticalNeo4j_DotNet.Service.GraphStory
+
+@if(Model.products!=null && Model.products.Any() ==true){
+    foreach (var product in Model.products)
+    {
+        <li class="list-group-item">
+            <h4>@Html.DisplayFor(modeItem => product.title)</h4>
+            <div class="hidey productdescr" id="pdescr_@Html.DisplayFor(modeItem => product.nodeId)">
+                @Html.DisplayFor(modeItem => product.description)
+                <p class="productTags"><b>Tags:</b> @Html.DisplayFor(modeItem => product.tagstr)</p>
+            </div>
+            <div>
+                <a href="#" id="@Html.DisplayFor(modeItem => product.nodeId)" class="productNodeId">See Product Description...</a>
+            </div>
+        </li>
+    }
+}
+@if(Model.next==true){
+    <a href="@Html.DisplayFor(model => model.nextPageUrl)" class="jscroll-next">next</a>    
+}
+else{
+    <div align="center" style="margin: 20px 0 20px 0"><li id="feed_load">No additional results</div>
+}

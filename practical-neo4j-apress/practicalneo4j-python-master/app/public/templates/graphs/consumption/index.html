@@ -1,0 +1,56 @@
+<h3>Consumption Graph</h3>
+<p>This section of the application demonstrates a way to view
+	products via a scrolling list. When a user clicks on a product
+	description, they are connected to the product via the VIEWED
+	relationship.</p>
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+			<h3>Consumption Menu</h3>
+			<ul id="sidemenu">
+				<li><a href="/consumption">Product List</a></li>
+				<li><a href="/consumption/console">Consumption console</a></li>
+			</ul>
+
+			<h4>Viewed Products</h4>
+			<p>Items the current user has recently viewed.</p>
+			<div id="userProductTrail">
+				{{#productTrail}}
+				<p>
+					<b>{{title}}</b> <br> last viewed on: {{dateAsStr}}
+				</p>
+				{{/productTrail}} {{^productTrail}}
+				<p>
+					user <b>"{{currentuser.username}}"</b> has no product trail
+				</p>
+				{{/productTrail}}
+			</div>
+		</div>
+		<div class="col-md-7">
+			<h3>Graph Story - Productsville</h3>
+			<h5 class="tfhmf">Scroll down to show moar products</h5>
+			<ul class="list-group" id="productlist">
+				{{#products}}
+				<li class="list-group-item">
+					<h4>{{title}}</h4>
+					<div class="hidey productdescr" id="pdescr_{{nodeId}}">
+						{{description}}
+						<p class="productTags">
+							<b>Tags:</b> {{tagstr}}
+						</p>
+					</div>
+					<div>
+						<a href="#" id="{{nodeId}}" class="productNodeId">See Product
+							Description...</a>
+					</div>
+				</li> {{/products}} {{#next}}
+				<a href="{{{nextPageUrl}}}" class="jscroll-next">next</a> {{/next}}
+				{{^next}}
+				<div align="center" style="margin: 20px 0 20px 0">
+					<li id="feed_load">No additional results
+				</div>
+				{{/next}}
+			</ul>
+		</div>
+	</div>
+</div>

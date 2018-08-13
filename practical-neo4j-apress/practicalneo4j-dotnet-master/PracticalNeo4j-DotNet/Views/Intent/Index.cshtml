@@ -1,0 +1,70 @@
+﻿@model PracticalNeo4j_DotNet.Service.GraphStory
+@{
+    Layout = "~/Views/_App.cshtml";
+}
+<h3>Intent Graph</h3>
+<p>This section of the application shows interest via a user's tagged content and the user's network of friends tagged content.  This could be expanded to show users with common interests via tags.</p>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <h3>Intent Menu</h3>
+            <ul id="sidemenu">
+                <li><a href="/intent">Products Purchased by Friends</a></li>
+                <li><a href="/intent/friendsPurchaseByProduct">Specific Products Purchased by Friends</a></li>
+                <li><a href="/intent/friendsPurchaseTagSimilarity">Products Purchased by Friends and Matches Users Tags</a></li>
+                <li><a href="/intent/friendsPurchaseTagSimilarityAndProximityToLocation">Products Purchased by Friends Nearby and Matches Users Tags</a></li>
+            </ul>
+        </div>
+        <div class="col-md-9">
+            <h3>Intent Graph  - @ViewBag.title</h3>
+            @if(Model.mappedUserLocation != null){
+                <p><br />Matches to friends who live near <b>@Html.DisplayFor(model => model.mappedUserLocation.address) @Html.DisplayFor(model => model.mappedUserLocation.city),
+                    @Html.DisplayFor(model => model.mappedUserLocation.state) @Html.DisplayFor(model => model.mappedUserLocation.zip)</b></p>    
+            }
+            
+            @if (Model.showform == true)
+            {
+                <form class="form-inline" role="form" action="/intent/friendsPurchaseByProduct" autocomplete="off">
+                    <div class="form-group">
+                        <input type="text" class="form-control col-lg-1" id="producttitle" name="producttitle" size="50" value="@Html.DisplayFor(model => model.producttitle)">
+                    </div>
+                    <button type="submit" class="btn btn-default">
+                        Search
+                    </button>
+                </form>
+            }
+
+            <table class="table table-striped" id="intenttable">
+                <tr>
+                    <th>Product</th>
+                    <th># Friends who purchased</th>
+                </tr>
+                @if (Model.mappedProductUserPurchases != null && Model.mappedProductUserPurchases.Any() == true)
+                {
+                    foreach(var mpup in Model.mappedProductUserPurchases){
+                        <tr class="productrow">
+                            <td>
+                                @Html.DisplayFor(modelItem => mpup.title)
+                                <div class="hidey productdescr" id="pdescr_@Html.DisplayFor(modelItem => mpup.productId)">
+                                    <h4>Friends</h4>
+                                    <ul>
+                                        @foreach (var fullname in mpup.fullname)
+                                        {
+                                            <li>@fullname</li>
+                                        }
+                                    </ul>
+                                    @if(mpup.wordPhrase !=null){
+                                        <p class="productTags"><b>Tags:</b> @Html.DisplayFor(modelItem => mpup.wordPhrase)</p>
+                                    }
+                                </div>
+                            </td>
+                            <td>
+                                <a href="#" id="@Html.DisplayFor(modelItem => mpup.productId)" class="productNodeId">@Html.DisplayFor(modelItem => mpup.cfriends)</a>
+                            </td>
+                        </tr>
+                    }
+                }
+            </table>
+        </div>
+    </div>
+</div>

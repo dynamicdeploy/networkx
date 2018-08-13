@@ -1,0 +1,49 @@
+﻿@model PracticalNeo4j_DotNet.Service.GraphStory
+
+@{
+    ViewBag.Title = "Interest";
+    Layout = "~/Views/_App.cshtml";
+}
+<h3>Interest Graph</h3>
+<p>This section of the application shows interest via a user's tagged content and the user's network of friends tagged content.  This could be expanded to show users with common interests via tags.</p>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <h3>My Interests</h3>
+            <div class="tc">
+                @foreach (var item in Model.userTags)
+                {
+                    <a href="/interest?tag=@Html.DisplayFor(modelItem=> item.label)&usercontent=true" rel="@Html.DisplayFor(modelItem => item.id)">@Html.DisplayFor(modelItem => item.label) (@Html.DisplayFor(modelItem => item.id))</a>
+                }
+            </div>
+            <h3>Interests in my network</h3>
+            <div class="tc">
+                 @foreach (var item in Model.tagsInNetwork)
+                {
+                    <a href="/interest?tag=@Html.DisplayFor(modelItem=> item.label)&usercontent=false" rel="@Html.DisplayFor(modelItem => item.id)">@Html.DisplayFor(modelItem => item.label) (@Html.DisplayFor(modelItem => item.id))</a>
+                }
+            </div>
+        </div>
+        <div class="col-md-9">
+            <h3>Graph Story - Interest Feed</h3>
+            <table class="table table-striped" id="content">
+                @if (Model.content != null && Model.content.Any()==true) { 
+                    foreach (var content in Model.content)
+                    {
+                        <tr>
+                            <td>
+                                <a href="@Html.DisplayFor(modelItem=> content.url)" target="_blank">@Html.DisplayFor(modelItem => content.title)</a><br />
+                                tags: @Html.DisplayFor(modelItem => content.tagstr) ::  Posted by @Html.DisplayFor(modelItem => content.userNameForPost) at 
+                                <a href="/viewpost/@Html.DisplayFor(modelItem=> content.contentId)">@Html.DisplayFor(modelItem => content.timestampAsStr)</a><br />
+                            </td>
+                        </tr>
+                    }
+                }
+                else {
+                    <tr><td>Click on a tag to display the feed.</td></tr>
+                }
+                
+            </table>
+        </div>
+    </div>
+</div>
