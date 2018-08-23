@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="PracticalNeo4j-DotNet" t="IncludeRecursive">
+        <e p="App_Data" t="Include" />
+        <e p="App_Start" t="Include">
+          <e p="Modules" t="Include">
+            <e p="Neo4jModule.cs" t="Include" />
+          </e>
+          <e p="NinjectWebCommon.cs" t="Include" />
+          <e p="RouteConfig.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Content" t="Include">
+          <e p="css" t="Include">
+            <e p="graphstory.css" t="Include" />
+            <e p="lib" t="Include">
+              <e p="bootstrap.min.css" t="Include" />
+              <e p="images" t="Include">
+                <e p="animated-overlay.gif" t="Include" />
+                <e p="ui-bg_diagonals-thick_18_b81900_40x40.png" t="Include" />
+                <e p="ui-bg_diagonals-thick_20_666666_40x40.png" t="Include" />
+                <e p="ui-bg_flat_10_000000_40x100.png" t="Include" />
+                <e p="ui-bg_glass_100_f6f6f6_1x400.png" t="Include" />
+                <e p="ui-bg_glass_100_fdf5ce_1x400.png" t="Include" />
+                <e p="ui-bg_glass_65_ffffff_1x400.png" t="Include" />
+                <e p="ui-bg_gloss-wave_35_f6a828_500x100.png" t="Include" />
+                <e p="ui-bg_highlight-soft_100_eeeeee_1x100.png" t="Include" />
+                <e p="ui-bg_highlight-soft_75_ffe45c_1x100.png" t="Include" />
+                <e p="ui-icons_222222_256x240.png" t="Include" />
+                <e p="ui-icons_228ef1_256x240.png" t="Include" />
+                <e p="ui-icons_ef8c08_256x240.png" t="Include" />
+                <e p="ui-icons_ffd27a_256x240.png" t="Include" />
+                <e p="ui-icons_ffffff_256x240.png" t="Include" />
+              </e>
+              <e p="jquery-ui.min.css" t="Include" />
+            </e>
+          </e>
+          <e p="fonts" t="Include">
+            <e p="glyphicons-halflings-regular.eot" t="Include" />
+            <e p="glyphicons-halflings-regular.svg" t="Include" />
+            <e p="glyphicons-halflings-regular.ttf" t="Include" />
+            <e p="glyphicons-halflings-regular.woff" t="Include" />
+          </e>
+          <e p="img" t="Include">
+            <e p="graphstory-practical-neo4j-256.png" t="Include" />
+            <e p="graphstory-practical-neo4j.png" t="Include" />
+            <e p="loader.gif" t="Include" />
+          </e>
+          <e p="js" t="Include">
+            <e p="graphstory.js" t="Include" />
+            <e p="lib" t="Include">
+              <e p="bootstrap.min.js" t="Include" />
+              <e p="jquery-ui.min.js" t="Include" />
+              <e p="jquery.jscroll.min.js" t="Include" />
+              <e p="jquery.min.js" t="Include" />
+              <e p="jquery.tagcloud.js" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="ConsumptionController.cs" t="Include" />
+          <e p="GraphStoryController.cs" t="Include" />
+          <e p="HomeController.cs" t="Include" />
+          <e p="IntentController.cs" t="Include" />
+          <e p="InterestController.cs" t="Include" />
+          <e p="LocationController.cs" t="Include" />
+          <e p="LoginController.cs" t="Include" />
+          <e p="SecurityController.cs" t="Include" />
+          <e p="SignupController.cs" t="Include" />
+          <e p="SocialController.cs" t="Include" />
+          <e p="TagController.cs" t="Include" />
+          <e p="UserController.cs" t="Include" />
+        </e>
+        <e p="Global.asax" t="Include" />
+        <e p="Global.asax.cs" t="Include" />
+        <e p="Models" t="Include">
+          <e p="Content.cs" t="Include" />
+          <e p="Location.cs" t="Include" />
+          <e p="Product.cs" t="Include" />
+          <e p="Purchase.cs" t="Include" />
+          <e p="Tag.cs" t="Include" />
+          <e p="User.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="PracticalNeo4j-DotNet.csproj" t="IncludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="jquery-1.10.2.intellisense.js" t="Include" />
+          <e p="jquery-1.10.2.js" t="Include" />
+          <e p="jquery-1.10.2.min.js" t="Include" />
+          <e p="jquery-1.10.2.min.map" t="Include" />
+          <e p="jquery.validate-vsdoc.js" t="Include" />
+          <e p="jquery.validate.js" t="Include" />
+          <e p="jquery.validate.min.js" t="Include" />
+          <e p="jquery.validate.unobtrusive.js" t="Include" />
+          <e p="jquery.validate.unobtrusive.min.js" t="Include" />
+        </e>
+        <e p="Service" t="Include">
+          <e p="ContentInterface.cs" t="Include" />
+          <e p="ContentService.cs" t="Include" />
+          <e p="GraphStory.cs" t="Include" />
+          <e p="GraphStoryInterface.cs" t="Include" />
+          <e p="GraphStoryService.cs" t="Include" />
+          <e p="LocationInterface.cs" t="Include" />
+          <e p="LocationService.cs" t="Include" />
+          <e p="ProductInterface.cs" t="Include" />
+          <e p="ProductService.cs" t="Include" />
+          <e p="PurchaseInterface.cs" t="Include" />
+          <e p="PurchaseService.cs" t="Include" />
+          <e p="TagInterface.cs" t="Include" />
+          <e p="TagService.cs" t="Include" />
+          <e p="UserInterface.cs" t="Include" />
+          <e p="UserService.cs" t="Include" />
+        </e>
+        <e p="ViewModels" t="Include">
+          <e p="MappedContent.cs" t="Include" />
+          <e p="MappedContentTag.cs" t="Include" />
+          <e p="MappedLocation.cs" t="Include" />
+          <e p="MappedProduct.cs" t="Include" />
+          <e p="MappedProductSearch.cs" t="Include" />
+          <e p="MappedProductUserPurchase.cs" t="Include" />
+          <e p="MappedProductUserTag.cs" t="Include" />
+          <e p="MappedProductUserViews.cs" t="Include" />
+          <e p="MappedUserLocation.cs" t="Include" />
+          <e p="RelCount.cs" t="Include" />
+        </e>
+        <e p="Views" t="Include">
+          <e p="_App.cshtml" t="Include" />
+          <e p="_Home.cshtml" t="Include" />
+          <e p="Consumption" t="Include">
+            <e p="Console.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+            <e p="product-list.cshtml" t="Include" />
+          </e>
+          <e p="Global" t="Include">
+            <e p="consumption-nav.cshtml" t="Include" />
+            <e p="social-nav.cshtml" t="Include" />
+          </e>
+          <e p="GraphStory" t="Include" />
+          <e p="Home" t="Include">
+            <e p="Index.cshtml" t="Include" />
+            <e p="Msg.cshtml" t="Include" />
+          </e>
+          <e p="Intent" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Interest" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Location" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Login" t="Include" />
+          <e p="Security" t="Include" />
+          <e p="Shared" t="Include" />
+          <e p="Signup" t="Include" />
+          <e p="Social" t="Include">
+            <e p="Post.cshtml" t="Include" />
+            <e p="Posts.cshtml" t="Include" />
+          </e>
+          <e p="Tag" t="Include" />
+          <e p="User" t="Include">
+            <e p="Friends.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="web.config" t="Include" />
+        </e>
+        <e p="web.config" t="Include" />
+        <e p="Web.Debug.config" t="Include" />
+        <e p="Web.Release.config" t="Include" />
+      </e>
+      <e p="PracticalNeo4j-DotNet.sln" t="IncludeFlat" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2018.1/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_PracticalNeo4j-DotNet.1423365274.00" t="ExcludeRecursive" />
+  </component>
+</project>

@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c6ca4548-f204-4e9a-99de-e680dd4694e7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.PracticalNeo4j-DotNet/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.PracticalNeo4j-DotNet/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.PracticalNeo4j-DotNet/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.PracticalNeo4j-DotNet/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.PracticalNeo4j-DotNet/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PracticalNeo4j-DotNet/Views/Home/Msg.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/PracticalNeo4j-DotNet/Views/Home/Msg.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PracticalNeo4j-DotNet/obj/Debug/PracticalNeo4j-DotNet.csproj.App.config" beforeDir="false" afterPath="$PROJECT_DIR$/PracticalNeo4j-DotNet/obj/Debug/PracticalNeo4j-DotNet.csproj.App.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PracticalNeo4j-DotNet/obj/Debug/PracticalNeo4j-DotNet.csprojResolveAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PracticalNeo4j-DotNet/obj/Debug/PracticalNeo4j-DotNet.csprojResolveAssemblyReference.cache" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Index.cshtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PracticalNeo4j-DotNet/Views/Home/Index.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="573">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <marker date="1419852786000" expanded="true" signature="0:41" ph="@..." />
+                <marker date="1419852786000" expanded="true" signature="42:74" ph="@..." />
+                <marker date="1419852786000" expanded="true" signature="76:763" ph="&lt;div.../&gt;" />
+                <marker date="1419852786000" expanded="true" signature="104:756" ph="&lt;div.../&gt;" />
+                <marker date="1419852786000" expanded="true" signature="358:740" ph="&lt;form.../&gt;" />
+                <marker date="1419852786000" expanded="true" signature="479:634" ph="&lt;div.../&gt;" />
+                <marker date="1419852786000" expanded="true" signature="764:2720" ph="&lt;div.../&gt;" />
+                <marker date="1419852786000" expanded="true" signature="792:1727" ph="&lt;div.../&gt;" />
+                <marker date="1419852786000" expanded="true" signature="818:1136" ph="&lt;div.../&gt;" />
+                <marker date="1419852786000" expanded="true" signature="1145:1410" ph="&lt;div.../&gt;" />
+                <marker date="1419852786000" expanded="true" signature="1419:1716" ph="&lt;div.../&gt;" />
+                <marker date="1419852786000" expanded="true" signature="1732:2720" ph="&lt;div.../&gt;" />
+                <marker date="1419852786000" expanded="true" signature="1758:2064" ph="&lt;div.../&gt;" />
+                <marker date="1419852786000" expanded="true" signature="2073:2393" ph="&lt;div.../&gt;" />
+                <marker date="1419852786000" expanded="true" signature="2402:2709" ph="&lt;div.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NinjectWebCommon.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PracticalNeo4j-DotNet/App_Start/NinjectWebCommon.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-559" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GraphStoryController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PracticalNeo4j-DotNet/Controllers/GraphStoryController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1419852786000" expanded="false" signature="6:180" ph="..." />
+                <marker date="1419852786000" expanded="true" signature="225:567" ph="{...}" />
+                <marker date="1419852786000" expanded="true" signature="278:565" ph="{...}" />
+                <marker date="1419852786000" expanded="true" signature="485:561" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Neo4jModule.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PracticalNeo4j-DotNet/App_Start/Modules/Neo4jModule.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1419852786000" expanded="false" signature="6:127" ph="..." />
+                <marker date="1419852786000" expanded="true" signature="178:762" ph="{...}" />
+                <marker date="1419852786000" expanded="true" signature="225:760" ph="{...}" />
+                <marker date="1419852786000" expanded="true" signature="332:431" ph="{...}" />
+                <marker date="1419852786000" expanded="true" signature="502:754" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GraphStoryService.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PracticalNeo4j-DotNet/Service/GraphStoryService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1419852786000" expanded="true" signature="6:121" ph="..." />
+                <marker date="1419852786000" expanded="true" signature="162:1181" ph="{...}" />
+                <marker date="1419852786000" expanded="true" signature="221:1179" ph="{...}" />
+                <marker date="1419852786000" expanded="true" signature="829:1163" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MappedProduct.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PracticalNeo4j-DotNet/ViewModels/MappedProduct.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1419852786000" expanded="false" signature="6:84" ph="..." />
+                <marker date="1419852786000" expanded="true" signature="128:351" ph="{...}" />
+                <marker date="1419852786000" expanded="true" signature="161:349" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntentController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PracticalNeo4j-DotNet/Controllers/IntentController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-252">
+              <folding>
+                <marker date="1419852786000" expanded="false" signature="6:183" ph="..." />
+                <marker date="1419852786000" expanded="true" signature="228:2986" ph="{...}" />
+                <marker date="1419852786000" expanded="true" signature="285:2984" ph="{...}" />
+                <marker date="1419852786000" expanded="true" signature="450:842" ph="{...}" />
+                <marker date="1419852786000" expanded="true" signature="943:1593" ph="{...}" />
+                <marker date="1419852786000" expanded="true" signature="1004:1084" ph="{...}" />
+                <marker date="1419852786000" expanded="true" signature="1673:2131" ph="{...}" />
+                <marker date="1419852786000" expanded="true" signature="2233:2981" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserInterface.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PracticalNeo4j-DotNet/Service/UserInterface.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1419852786000" expanded="false" signature="6:191" ph="..." />
+                <marker date="1419852786000" expanded="true" signature="232:742" ph="{...}" />
+                <marker date="1419852786000" expanded="true" signature="265:740" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserService.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PracticalNeo4j-DotNet/Service/UserService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-912">
+              <folding>
+                <marker date="1419852786000" expanded="false" signature="6:205" ph="..." />
+                <marker date="1419852786000" expanded="true" signature="246:6171" ph="{...}" />
+                <marker date="1419852786000" expanded="true" signature="293:6169" ph="{...}" />
+                <marker date="1419852786000" expanded="true" signature="437:497" ph="{...}" />
+                <marker date="1419852786000" expanded="true" signature="552:1290" ph="{...}" />
+                <marker date="1419852786000" expanded="true" signature="711:1068" ph="{...}" />
+                <marker date="1419852786000" expanded="true" signature="1085:1236" ph="{...}" />
+                <marker date="1419852786000" expanded="true" signature="1346:1746" ph="{...}" />
+                <marker date="1419852786000" expanded="true" signature="1462:1550" ph="{...}" />
+                <marker date="1419852786000" expanded="true" signature="1550:1705" ph="{...}" />
+                <marker date="1419852786000" expanded="true" signature="1785:2164" ph="{...}" />
+                <marker date="1419852786000" expanded="true" signature="2214:2413" ph="{...}" />
+                <marker date="1419852786000" expanded="true" signature="2310:2372" ph="{...}" />
+                <marker date="1419852786000" expanded="true" signature="2465:3073" ph="{...}" />
+                <marker date="1419852786000" expanded="true" signature="2518:2929" ph="{...}" />
+                <marker date="1419852786000" expanded="true" signature="2961:3027" ph="{...}" />
+                <marker date="1419852786000" expanded="true" signature="3127:3492" ph="{...}" />
+                <marker date="1419852786000" expanded="true" signature="3579:4157" ph="{...}" />
+                <marker date="1419852786000" expanded="true" signature="4232:4719" ph="{...}" />
+                <marker date="1419852786000" expanded="true" signature="4870:5439" ph="{...}" />
+                <marker date="1419852786000" expanded="true" signature="5594:6154" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GraphStoryInterface.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PracticalNeo4j-DotNet/Service/GraphStoryInterface.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1419852786000" expanded="false" signature="6:115" ph="..." />
+                <marker date="1419852786000" expanded="true" signature="156:539" ph="{...}" />
+                <marker date="1419852786000" expanded="true" signature="199:537" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/PracticalNeo4j-DotNet/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PracticalNeo4j-DotNet/Service/UserService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PracticalNeo4j-DotNet/Service/UserInterface.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PracticalNeo4j-DotNet/Controllers/GraphStoryController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PracticalNeo4j-DotNet/obj/Debug/PracticalNeo4j-DotNet.csproj.App.config" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PracticalNeo4j-DotNet/Controllers/IntentController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PracticalNeo4j-DotNet/Service/GraphStoryService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PracticalNeo4j-DotNet/Service/GraphStoryInterface.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PracticalNeo4j-DotNet/App_Start/NinjectWebCommon.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PracticalNeo4j-DotNet/App_Start/Modules/Neo4jModule.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PracticalNeo4j-DotNet/Views/_Home.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PracticalNeo4j-DotNet/ViewModels/MappedProduct.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PracticalNeo4j-DotNet/Views/Home/Msg.cshtml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/PracticalNeo4j-DotNet/Views/Home/Msg.cshtml" />
+        <option value="$PROJECT_DIR$/PracticalNeo4j-DotNet/Views/Home/Index.cshtml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="20" />
+    <option name="y" value="43" />
+    <option name="width" value="1400" />
+    <option name="height" value="789" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="PracticalNeo4j-DotNet (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="PracticalNeo4j-DotNet (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="PracticalNeo4j-DotNet" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="PracticalNeo4j-DotNet (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="PracticalNeo4j-DotNet" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="App_Start" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="PracticalNeo4j-DotNet (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="PracticalNeo4j-DotNet" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="App_Start" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Modules" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="PracticalNeo4j-DotNet (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="PracticalNeo4j-DotNet" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Content" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="PracticalNeo4j-DotNet (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="PracticalNeo4j-DotNet" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="PracticalNeo4j-DotNet (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="PracticalNeo4j-DotNet" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="PracticalNeo4j-DotNet (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="PracticalNeo4j-DotNet" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Service" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="PracticalNeo4j-DotNet (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="PracticalNeo4j-DotNet" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ViewModels" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6ca4548-f204-4e9a-99de-e680dd4694e7" name="Default" comment="" />
+      <created>1534386480258</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534386480258</updated>
+      <workItem from="1534386483298" duration="522000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="522000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="20" y="43" width="1400" height="789" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" visible="true" weight="0.1472754" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="REST Client" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/PracticalNeo4j-DotNet/Views/_Home.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="75" column="4" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="4" />
+          <folding>
+            <marker date="1419852786000" expanded="true" signature="16:2979" ph="&lt;html.../&gt;" />
+            <marker date="1419852786000" expanded="true" signature="33:1507" ph="&lt;head.../&gt;" />
+            <marker date="1419852786000" expanded="true" signature="1019:1499" ph="&lt;style.../&gt;" />
+            <marker date="1419852786000" expanded="true" signature="1071:1147" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="1168:1244" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="1273:1326" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="1352:1429" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="1444:1486" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="1508:2971" ph="&lt;body.../&gt;" />
+            <marker date="1419852786000" expanded="true" signature="1519:2621" ph="&lt;div.../&gt;" />
+            <marker date="1419852786000" expanded="true" signature="1598:2610" ph="&lt;div.../&gt;" />
+            <marker date="1419852786000" expanded="true" signature="1634:2095" ph="&lt;div.../&gt;" />
+            <marker date="1419852786000" expanded="true" signature="1678:2022" ph="&lt;button.../&gt;" />
+            <marker date="1419852786000" expanded="true" signature="2108:2570" ph="&lt;div.../&gt;" />
+            <marker date="1419852786000" expanded="true" signature="2163:2551" ph="&lt;form.../&gt;" />
+            <marker date="1419852786000" expanded="true" signature="2265:2436" ph="&lt;div.../&gt;" />
+            <marker date="1419852786000" expanded="true" signature="2657:2811" ph="&lt;footer.../&gt;" />
+            <marker date="1419852786000" expanded="true" signature="2674:2797" ph="&lt;p.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracticalNeo4j-DotNet/Views/Home/Msg.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <marker date="1534386722920" expanded="true" signature="1:69" ph="@..." />
+            <marker date="1534386722920" expanded="true" signature="71:372" ph="&lt;div.../&gt;" />
+            <marker date="1534386722920" expanded="true" signature="99:365" ph="&lt;div.../&gt;" />
+            <marker date="1534386722920" expanded="true" signature="237:342" ph="&lt;p.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracticalNeo4j-DotNet/Views/Home/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <marker date="1419852786000" expanded="true" signature="0:41" ph="@..." />
+            <marker date="1419852786000" expanded="true" signature="42:74" ph="@..." />
+            <marker date="1419852786000" expanded="true" signature="76:763" ph="&lt;div.../&gt;" />
+            <marker date="1419852786000" expanded="true" signature="104:756" ph="&lt;div.../&gt;" />
+            <marker date="1419852786000" expanded="true" signature="358:740" ph="&lt;form.../&gt;" />
+            <marker date="1419852786000" expanded="true" signature="479:634" ph="&lt;div.../&gt;" />
+            <marker date="1419852786000" expanded="true" signature="764:2720" ph="&lt;div.../&gt;" />
+            <marker date="1419852786000" expanded="true" signature="792:1727" ph="&lt;div.../&gt;" />
+            <marker date="1419852786000" expanded="true" signature="818:1136" ph="&lt;div.../&gt;" />
+            <marker date="1419852786000" expanded="true" signature="1145:1410" ph="&lt;div.../&gt;" />
+            <marker date="1419852786000" expanded="true" signature="1419:1716" ph="&lt;div.../&gt;" />
+            <marker date="1419852786000" expanded="true" signature="1732:2720" ph="&lt;div.../&gt;" />
+            <marker date="1419852786000" expanded="true" signature="1758:2064" ph="&lt;div.../&gt;" />
+            <marker date="1419852786000" expanded="true" signature="2073:2393" ph="&lt;div.../&gt;" />
+            <marker date="1419852786000" expanded="true" signature="2402:2709" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracticalNeo4j-DotNet/App_Start/NinjectWebCommon.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-559" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracticalNeo4j-DotNet/Controllers/GraphStoryController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1419852786000" expanded="false" signature="6:180" ph="..." />
+            <marker date="1419852786000" expanded="true" signature="225:567" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="278:565" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="485:561" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracticalNeo4j-DotNet/App_Start/Modules/Neo4jModule.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1419852786000" expanded="false" signature="6:127" ph="..." />
+            <marker date="1419852786000" expanded="true" signature="178:762" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="225:760" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="332:431" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="502:754" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracticalNeo4j-DotNet/Controllers/IntentController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-252">
+          <folding>
+            <marker date="1419852786000" expanded="false" signature="6:183" ph="..." />
+            <marker date="1419852786000" expanded="true" signature="228:2986" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="285:2984" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="450:842" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="943:1593" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="1004:1084" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="1673:2131" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="2233:2981" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracticalNeo4j-DotNet/Service/UserInterface.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1419852786000" expanded="false" signature="6:191" ph="..." />
+            <marker date="1419852786000" expanded="true" signature="232:742" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="265:740" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracticalNeo4j-DotNet/Service/UserService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-912">
+          <folding>
+            <marker date="1419852786000" expanded="false" signature="6:205" ph="..." />
+            <marker date="1419852786000" expanded="true" signature="246:6171" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="293:6169" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="437:497" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="552:1290" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="711:1068" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="1085:1236" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="1346:1746" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="1462:1550" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="1550:1705" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="1785:2164" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="2214:2413" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="2310:2372" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="2465:3073" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="2518:2929" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="2961:3027" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="3127:3492" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="3579:4157" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="4232:4719" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="4870:5439" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="5594:6154" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracticalNeo4j-DotNet/Service/GraphStoryInterface.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1419852786000" expanded="false" signature="6:115" ph="..." />
+            <marker date="1419852786000" expanded="true" signature="156:539" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="199:537" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracticalNeo4j-DotNet/Service/GraphStoryService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1419852786000" expanded="true" signature="6:121" ph="..." />
+            <marker date="1419852786000" expanded="true" signature="162:1181" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="221:1179" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="829:1163" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracticalNeo4j-DotNet/ViewModels/MappedProduct.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1419852786000" expanded="false" signature="6:84" ph="..." />
+            <marker date="1419852786000" expanded="true" signature="128:351" ph="{...}" />
+            <marker date="1419852786000" expanded="true" signature="161:349" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
